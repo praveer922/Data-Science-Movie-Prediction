@@ -80,7 +80,7 @@ public class Main {
 			System.out.println(e);
 		}
 		
-		System.out.println("Imdb Rating: " + MovieRatings.get(args[0]));
+		System.out.println("Predicted Imdb Rating: " + MovieRatings.get(args[0]));
 		
 		String movie_name = args[0];
 		String[] split_name = movie_name.split(" ");
